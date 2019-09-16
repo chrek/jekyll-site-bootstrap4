@@ -1,0 +1,30 @@
+<footer class="py-5">
+  <hr />
+  <div class="container text-center text-info">
+    <div class="row">
+      <div class="col">
+        {% if site.show_social_icons %} {% include social_links.html %} {% endif
+        %}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        All content copyright Chrek &copy; {{ site.time | date: "%Y" }}.
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        All rights reserved.
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/js/all.js"
+  integrity="sha256-3++upIdscYTh7JbNFOC/2ubJySRGby0CV4wGGfUPY6c="
+  crossorigin="anonymous"
+></script>
+<script src="{{ '/assets/js/jquery.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/popper.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/bootstrap.min.js' | relative_url }}"></script>

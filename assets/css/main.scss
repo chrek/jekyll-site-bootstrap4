@@ -2,3 +2,26 @@
 ---
 
 @import "main";
+@import "css/custom/variables";
+@import "css/bootstrap/bootstrap";
+
+
+
+@import "css/custom/includes/social_links";
+
+.content {
+  font-size: $custom-font-size; //using custom variable
+  padding: 20px;
+  color: $teal;
+}
+
+.bs4color {
+  color: $primary; //using Bootstrap variable
+  padding: 20px;
+}
+
+hr {
+  height: 1px;
+  //background-color: white;
+  border: 1px solid blue;
+}
