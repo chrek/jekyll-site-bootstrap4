@@ -1,0 +1,9 @@
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: /jekyll-site-bootstrap4 # the subpath of your site, e.g. /blog
+title: "Jekyll Site Bootstrap4" # the name of your site, e.g. ACME Corp.
+
+# Social icons
+show_social_icons: true
+github_username: chrek
+email: chrek@ymail.com
+twitter_username: someTwitterUser
